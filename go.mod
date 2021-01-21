@@ -10,7 +10,7 @@ require (
 	github.com/hashicorp/go-hclog v0.14.1
 	github.com/hashicorp/go-plugin v1.3.0
 	github.com/jinzhu/gorm v1.9.12
-	github.com/manojkva/metamorph-plugin v0.0.0-00010101000000-000000000000
+	github.com/manojkva/metamorph-plugin v1.0.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/spf13/cobra v0.0.7
 	github.com/spf13/viper v1.7.1
@@ -18,11 +18,5 @@ require (
 	go.uber.org/zap v1.15.0
 	google.golang.org/grpc v1.30.0
 	google.golang.org/protobuf v1.25.0
-	opendev.org/airship/go-redfish/client v0.0.0-0
+	opendev.org/airship/go-redfish/client v0.0.0-20200625173456-c8df18b52664
 )
-
-replace opendev.org/airship/go-redfish/client => /root/go/src/opendev.org/airship/go-redfish/client // Use opendev/org/airship/go-redfish refs/changes/77/737177/3
-
-replace github.com/bm-metamorph/MetaMorph => /root/go/src/github.com/manojkva/MetaMorph
-
-replace github.com/manojkva/metamorph-plugin => /root/go/src/github.com/manojkva/metamorph-plugin
